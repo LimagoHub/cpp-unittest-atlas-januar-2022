@@ -1,10 +1,12 @@
 #pragma once
+#include <vector>
+
 class stapel
 {
 private:
-	int* data;
-	int index;
-	int size;
+	std::vector<int> data;
+	//int index;
+	//int size;
 
 public:
 	stapel(int size = 10);
@@ -21,6 +23,6 @@ public:
 
 	int get_size() const
 	{
-		return size;
+		return data.size();
 	}
 };
