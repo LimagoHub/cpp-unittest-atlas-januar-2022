@@ -1,0 +1,2 @@
+C:\mingw\bin\ar.exe qc libMonsters.a CMakeFiles/Monsters.dir/Monster.cpp.obj CMakeFiles/Monsters.dir/Zombie.cpp.obj CMakeFiles/Monsters.dir/Ogre.cpp.obj CMakeFiles/Monsters.dir/stapel.cpp.obj CMakeFiles/Monsters.dir/Vampir.cpp.obj
+C:\mingw\bin\ranlib.exe libMonsters.a

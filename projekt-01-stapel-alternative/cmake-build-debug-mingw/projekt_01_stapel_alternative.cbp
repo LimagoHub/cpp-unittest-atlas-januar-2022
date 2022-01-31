@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projekt_01_stapel_alternative"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug-mingw\;CMake Files\cmake-build-debug-mingw\_deps\;CMake Files\cmake-build-debug-mingw\_deps\googletest-src\;CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googletest\cmake\;CMake Files\code\;CMake Files\code\src\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projekt_01_stapel_alternative">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/projekt_01_stapel_alternative.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 projekt_01_stapel_alternative"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projekt_01_stapel_alternative/fast">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/projekt_01_stapel_alternative.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 projekt_01_stapel_alternative/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projekt_01_test">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/projekt_01_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 projekt_01_test"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projekt_01_test/fast">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/projekt_01_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 projekt_01_test/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Monsters">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/libMonsters.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/src/../includes"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/Makefile&quot;  VERBOSE=1 Monsters"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Monsters/fast">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/libMonsters.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/src/../includes"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/Makefile&quot;  VERBOSE=1 Monsters/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/code/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myTests">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/libmyTests.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/Makefile&quot;  VERBOSE=1 myTests"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myTests/fast">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/libmyTests.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/Makefile&quot;  VERBOSE=1 myTests/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/includes"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/include"/>
+					<Add directory="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/src/Monster.cpp">
+			<Option target="Monsters"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/src/Ogre.cpp">
+			<Option target="Monsters"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/src/Vampir.cpp">
+			<Option target="Monsters"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/src/Zombie.cpp">
+			<Option target="Monsters"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/src/stapel.cpp">
+			<Option target="Monsters"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/main.cpp">
+			<Option target="projekt_01_stapel_alternative"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/tests/hello_test.cpp">
+			<Option target="projekt_01_test"/>
+			<Option target="myTests"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/tests/hello_test.h">
+			<Option target="projekt_01_test"/>
+			<Option target="myTests"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/tests/stapel_test.cpp">
+			<Option target="myTests"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/tests/stapel_test.h">
+			<Option target="myTests"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-mingw\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/code/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\code\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

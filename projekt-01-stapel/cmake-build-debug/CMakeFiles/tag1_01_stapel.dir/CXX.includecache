@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel/main.cpp
+iostream
+-
+stapel.h
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel/stapel.h
+
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel/stapel.cpp
+stapel.h
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel/stapel.h
+
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel/stapel.h
+stdexcept
+-
+

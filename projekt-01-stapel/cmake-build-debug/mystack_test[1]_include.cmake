@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel/cmake-build-debug/mystack_test[1]_tests.cmake")
+  include("C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel/cmake-build-debug/mystack_test[1]_tests.cmake")
+else()
+  add_test(mystack_test_NOT_BUILT mystack_test_NOT_BUILT)
+endif()

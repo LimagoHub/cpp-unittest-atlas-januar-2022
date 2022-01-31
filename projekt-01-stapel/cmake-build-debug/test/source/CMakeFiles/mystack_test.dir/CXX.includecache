@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel/test/source/stapel_test.cpp
+gtest/gtest.h
+-
+

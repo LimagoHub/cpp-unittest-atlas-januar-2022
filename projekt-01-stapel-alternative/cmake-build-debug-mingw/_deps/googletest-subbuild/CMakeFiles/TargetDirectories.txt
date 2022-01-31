@@ -1,0 +1,3 @@
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/JoachimWagner/git/cpp-unit-private-december-2021/projekt-01-stapel-alternative/cmake-build-debug-mingw/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SimpleProjectWithGmockTest.dir/objects.a
+C:\mingw\bin\ar.exe cr CMakeFiles\SimpleProjectWithGmockTest.dir/objects.a @CMakeFiles\SimpleProjectWithGmockTest.dir\objects1.rsp
+C:\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\SimpleProjectWithGmockTest.dir/objects.a -Wl,--no-whole-archive -o SimpleProjectWithGmockTest.exe -Wl,--out-implib,libSimpleProjectWithGmockTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SimpleProjectWithGmockTest.dir\linklibs.rsp

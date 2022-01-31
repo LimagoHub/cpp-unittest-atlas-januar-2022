@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\stapel_test.dir/objects.a
+C:\mingw\bin\ar.exe cr CMakeFiles\stapel_test.dir/objects.a @CMakeFiles\stapel_test.dir\objects1.rsp
+C:\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\stapel_test.dir/objects.a -Wl,--no-whole-archive -o stapel_test.exe -Wl,--out-implib,libstapel_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\stapel_test.dir\linklibs.rsp

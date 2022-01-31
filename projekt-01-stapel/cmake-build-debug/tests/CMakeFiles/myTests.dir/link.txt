@@ -1,0 +1,2 @@
+C:\mingw\bin\ar.exe qc libmyTests.a CMakeFiles/myTests.dir/stapel_test.cpp.obj CMakeFiles/myTests.dir/hello_test.cpp.obj
+C:\mingw\bin\ranlib.exe libmyTests.a

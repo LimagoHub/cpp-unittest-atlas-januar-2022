@@ -1,0 +1,2 @@
+C:\mingw\bin\ar.exe qc libmystack_test.a CMakeFiles/mystack_test.dir/stapel_test.cpp.obj
+C:\mingw\bin\ranlib.exe libmystack_test.a
