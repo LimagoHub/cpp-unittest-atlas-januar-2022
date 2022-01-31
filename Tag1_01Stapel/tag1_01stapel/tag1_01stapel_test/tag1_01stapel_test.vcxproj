@@ -36,6 +36,7 @@
     <ClCompile Include="..\packages\gmock.1.11.0\lib\native\src\gmock\gmock-all.cc" />
     <ClCompile Include="..\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock_main.cc" />
     <ClCompile Include="..\packages\gmock.1.11.0\lib\native\src\gtest\gtest-all.cc" />
+    <ClCompile Include="stapel_test.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -45,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stapel_test.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
