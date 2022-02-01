@@ -15,40 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="personen_repository.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="person.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="personen_service.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="personen_service_exception.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="unsympathen_service.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="computer_spieler.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
+    <ClCompile Include="tag2_01Logger.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tag1_04personenService.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="personen_service.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
+    <ClInclude Include="Logger.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Appender.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsolenAppender.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
