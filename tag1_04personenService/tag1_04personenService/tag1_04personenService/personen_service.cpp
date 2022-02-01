@@ -1,5 +1,5 @@
 #include "personen_service.h"
-
+#include "personen_service_exception.h"
 
 
 /*
@@ -17,4 +17,6 @@
 
 void personen_service::speichern(person& person)
 {
+	if (person.get_vorname().length() < 2)
+		throw personen_service_exception("Vorname zu kurz.");
 }
