@@ -42,9 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock_main.cc" />
+    <ClCompile Include="computer_spieler_test.cpp" />
     <ClCompile Include="personen_service_test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="computer_spieler_test.h" />
     <ClInclude Include="Mockpersonen_repository.h" />
     <ClInclude Include="Mockunsympathen_service.h" />
     <ClInclude Include="personen_service_test.h" />
