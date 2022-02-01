@@ -1,7 +1,7 @@
 #include "personen_service_test.h"
-
-const person validPerson{ "John","Doe" };
-
+#include <exception>
+person validPerson{ "John","Doe" };
+using namespace testing;
 TEST_F(personen_service_test, speichern_vornameZuKurz_throwsPersonenServiceException_andErrorMessage_VornameZuKurz)
 {
 	try
@@ -18,3 +18,120 @@ TEST_F(personen_service_test, speichern_vornameZuKurz_throwsPersonenServiceExcep
 		EXPECT_STREQ("Vorname zu kurz.", ex.what());
 	}
 }
+
+TEST_F(personen_service_test, speichern_nachnameZuKurz_throwsPersonenServiceException_andErrorMessage_nachNameZuKurz)
+{
+	try
+	{
+		// Arrange
+		person p{ "John", "D" };
+		// Act
+		object_under_test.speichern(p);
+
+		FAIL() << "expected exception is not thrown";
+	}
+	catch (personen_service_exception& ex)
+	{
+		EXPECT_STREQ("Nachname zu kurz.", ex.what());
+	}
+}
+
+
+
+TEST_F(personen_service_test, speichern_unexpectedExceptionInUnderlyingService_throwsPersonenServiceException)
+{
+	try
+	{
+		// Arrange
+		std::invalid_argument e("Upps");
+
+
+		ON_CALL(repoMock, save(_)).WillByDefault(Throw(e));
+		// Act
+		object_under_test.speichern(validPerson);
+
+		FAIL() << "expected exception is not thrown";
+	}
+	catch (personen_service_exception& ex)
+	{
+		EXPECT_STREQ("Fehler im Service", ex.what());
+	}
+}
+
+
+TEST_F(personen_service_test, speichern_antipath_throwsPersonenServiceException_andErrorMessage_Antipath)
+{
+
+	try
+	{
+		// Arrange
+
+		ON_CALL(antipathenMock, is_unsympath(_)).WillByDefault(Return(true));
+		
+		person p{ "John", "Doe" };
+		// Act
+		object_under_test.speichern(p);
+
+		FAIL() << "expected exception is not thrown";
+	}
+	catch (personen_service_exception& ex)
+	{
+		EXPECT_STREQ("Antipath", ex.what());
+	}
+	
+}
+
+
+TEST_F(personen_service_test, speichern_happyDay_personIsPassedToRepo)
+{
+	
+		InSequence s;
+		EXPECT_CALL(antipathenMock, is_unsympath(_)).WillRepeatedly(Return(false));
+		EXPECT_CALL(repoMock, save(validPerson)).Times(1);
+	
+	// Act
+	object_under_test.speichern(validPerson);
+
+	//EXPECT_EQ("1", validPerson.get_id());
+
+}
+
+TEST_F(personen_service_test, speichern_xyz_personIsPassedToRepo)
+{
+	person result;
+	
+	EXPECT_CALL(repoMock, save(_)).Times(1).WillOnce(DoAll(SaveArg<0>(&result)));
+	// Act
+	object_under_test.speichern("Peter","Schmidt");
+
+	
+
+	EXPECT_EQ("1", result.get_id());
+	EXPECT_EQ("Peter", result.get_vorname());
+
+}
+
+//TEST_F(personen_service_test, dummy)
+//{
+//
+//	person result;
+//
+//	person p1{"Max","Mustermann"};
+//	person p2{ "Jane","Doe" };
+//
+//	EXPECT_CALL(repoMock, save(p1)).Times(3).WillRepeatedly()
+//
+//	//EXPECT_CALL(repoMock, save(_)).Times(1).WillOnce(DoAll(Return(3), SaveArg<0>(&result)));
+//
+//	//ON_CALL(repoMock, save(_)).WillByDefault(Return(3));
+//
+//	
+//	// Act
+//	/*object_under_test.speichern("Peter", "Schmidt");
+//
+//
+//
+//	EXPECT_EQ("1", result.get_id());
+//	EXPECT_EQ("Peter", result.get_vorname());*/
+//
+//}

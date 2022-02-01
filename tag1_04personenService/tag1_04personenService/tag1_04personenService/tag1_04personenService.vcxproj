@@ -157,6 +157,7 @@
     <ClInclude Include="personen_repository.h" />
     <ClInclude Include="personen_service.h" />
     <ClInclude Include="personen_service_exception.h" />
+    <ClInclude Include="unsympathen_service.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">

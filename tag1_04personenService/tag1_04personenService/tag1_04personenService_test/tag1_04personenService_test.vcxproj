@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mockpersonen_repository.h" />
+    <ClInclude Include="Mockunsympathen_service.h" />
     <ClInclude Include="personen_service_test.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
